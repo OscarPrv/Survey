@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link href="css/reset.css" rel="stylesheet" type="text/css"  media="all">
+    <link href="css/style.css" rel="stylesheet" type="text/css"  media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@300&display=swap" rel="stylesheet">
+<title>Survey</title>
+</head>
+
+<body>
+    <header>
+        <h1 id=title>Formulario - Encuesta</h1>
+        <p id="description">Gracias por ayudarnos a mejorar nuestro servicio</p>
+    </header>
+    <main id="main">
+
+    <div id="container">
+
+    <div id="cuadro">
+       
+
+        <div id="border">
+        <form id="survey-form" action="#">
+
+        <div id="div-name">
+        <label for="name" id="name-label">Nombre</label> <br>
+        <div id="d-1"> 
+        <input id="name" type="text"required placeholder="Escribe tu nombre">
+        </div>
+        </div>
+
+        <div id="div-email">
+        
+        <label for="email" id="email-label">Email</label><br>
+        <div id="d-2">
+        <input id="email" type="email" required placeholder="Escribe tu email"> <!--si el mail está mal formateado que me mande error-->
+        </div>
+        </div>
+
+        <div id="age">
+        <div id="age-l">
+        <label for="number" id="number-label">Edad</label><br>
+        <div id="d-3">
+        <input id="number" type="number" required placeholder="Edad (números)" min="12" max="100">  <!-- que solo de números, si entro otra cosa que me diga que pedo, también usar min y max para poner un rango que se vea real-->
+        </div>
+        </div>    
+        </div>
+
+        <div id="drop">
+        <p id="p-drop">¿Qué tan satisfecho está con nuestro producto?</p>
+        <select name="opciones" id="dropdown" required>
+            <option disabled="" selected="" value="">--Por favor elige una opción--</option>
+            <option value="muy-satisfecho">Muy satisfecho</option>
+            <option value="satisfecho">Satisfecho</option>
+            <option value="neutral">Ni satifecho ni insatisfecho</option>
+            <option value="insatisfecho">Insatisfecho</option>
+            <option value="muy-insatisfecho">Muy insatisfecho</option>
+        </select>
+        </div>
+
+        <p id="p-rad">¿Recomendarías nuestro servicio a un amigo?</p>
+        <div id="div-rad">
+        <label id="l-radd">
+            <input type="radio" name="recomend" id="rad-recomend" value="Definitivamente">Definitivamente
+        </label><br>
+        <label id="l-rad">
+            <input type="radio" name="recomend" id="rad-recomend" value="Tal-vez">Tal vez
+        </label><br>
+        <label>
+            <input type="radio" name="recomend" id="rad-recomend" value="No">No estoy seguro
+        </label>
+        </div>
+
+        <p>¿Qué fue lo que te gustó más de nuestro producto?</p> <p id="p-ch2">(se pueden elegir varias opciones)</p>
+        <div id="div-ch">
+        <label id="ch1">
+            <input type="checkbox" name="gusto" id="ch-gusto" value="presentacion">La presentacion
+        </label>
+        <label id="ch2">
+            <input type="checkbox" name="gusto" id="ch-gusto" value="color">Los colores
+        </label>
+        <label id="ch3">
+            <input type="checkbox" name="gusto" id="ch-gusto" value="informacion">La información
+        </label>
+        <label id="ch4">
+            <input type="checkbox" name="gusto" id="ch-gusto" value="comida">La comida
+        </label>
+        </div>
+
+        <p id="p-com">Comentarios extras que quisiera agregar:</p>
+        <div id="text-ar">
+        <textarea name="extra-coments" id="coments" placeholder="Dinos tus comentarios :)" cols="40" rows="6"></textarea>
+        </div>
+
+        <div id="div-but">
+            <button id="submit" type="submit">Enviar información</button>
+        </div>
+        
+        </form>
+        </div>
+
+    </div>
+    </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+body{
+    background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(rgb(245, 245, 245) 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    rgb(245, 245, 245);
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+header{
+    background-color: transparent;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-size: 75px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+#description{
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#cuadro{
+    background: rgba(255, 255, 255, 0.95);
+    grid-area: 1/2/2/5;
+    text-align: center;
+    box-shadow: 0px 0px 15px -10px rgb(58, 58, 58);
+}
+
+#border{
+    scale: 0.8;
+    border: 5px double black;
+}
+
+p{
+    font-size: 25px;
+}
+
+input{
+    font-size: 15px;
+}
+
+#div-name{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#name-label{
+    padding-right: 300px;
+    padding-bottom: 7px;
+    font-size: 25px;
+}
+#d-1{
+    margin-top: 8px;
+}
+#name{
+    height: 40px;
+    width: 400px;
+}
+
+#div-email{
+    padding-bottom: 30px;
+}
+#email-label{
+    padding-right: 330px;
+    padding-bottom: 7px;
+    font-size: 25px;
+}
+#email{
+    height: 40px;
+    width: 400px;
+}
+#d-2{
+    margin-top: 8px;
+}
+#age{
+    padding-bottom: 30px;
+}
+#number-label{
+    padding-right: 80px;
+    padding-bottom: 7px;
+    font-size: 25px;
+}
+#number{
+    height: 40px;
+    width: 150px;
+}
+#age-l{
+    padding-right: 250px;
+}
+#d-3{
+    margin-top: 8px;
+}
+#p-drop{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+#dropdown{
+    height: 40px;
+    font-size: 15px;
+}
+#drop{
+    padding-bottom: 35px;
+}
+#p-rad{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+#div-rad{
+    width: 30%;
+    margin: auto;
+    justify-items: start;
+    padding-right: 70px;
+    line-height: 30px;
+    padding-bottom: 42px;
+}
+#l-radd{
+    padding-right: 5px;
+    padding-bottom: 50px;
+}
+#l-rad{
+    padding-right: 95px;
+}
+#p-ch2{
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+#ch1{
+    padding-right: 25px;
+}
+#ch2{
+    padding-right: 25px;
+}
+#ch3{
+    padding-right: 25px;
+}
+#div-ch{
+    padding-bottom: 50px;
+}
+#text-ar{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+textarea{
+    font-size: 18px;
+    font-family: sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+#div-but{
+    padding-bottom: 50px;
+}
+button{
+    font-size: 25px;
+    border-radius: 4px;
+}
+button:hover{
+    background: linear-gradient(rgb(247, 247, 247), rgb(170, 221, 179));
+    border-radius: 4px;
+}
